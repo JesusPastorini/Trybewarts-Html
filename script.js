@@ -53,3 +53,14 @@ const agreementCheck = () => {
 agreement.addEventListener('change', agreementCheck);
 
 window.onload = agreementCheck;
+
+const textAreaDigitado = document.getElementById('textarea');
+const contadorTextArea = () => {
+  const quant = 500;
+  const total = textAreaDigitado.value.length;
+  if (total <= quant) {
+    const resto = quant - total;
+    document.getElementById('counter').innerHTML = resto;
+  }
+};
+textAreaDigitado.addEventListener('keyup', contadorTextArea);
