@@ -6,7 +6,7 @@ Bem-vindo ao projeto Trybewarts! Aqui está um resumo do que foi desenvolvido ne
 
 ## Imagem do Projeto
 
-![Trybewarts](link_para_imagem.png)
+![Trybewarts](images/pagina-principal.png)
 
 ---
 
